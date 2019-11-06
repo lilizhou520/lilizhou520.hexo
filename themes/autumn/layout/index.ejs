@@ -13,11 +13,14 @@
     <% page.posts.each(function (post) { %>
         <article class="post">
             <% post.categories.each(function (cat) { %>
+				<% if(false){ %>
                 <h4 class="post-cat">
                     <a href="<%- url_for(cat.path) %>">
                         <%= cat.name %>
                     </a>
                 </h4>
+				<%}%>
+				
                 <%  }) %>
                     <h1 class="post-title">
                         <a href="<%- url_for(post.path) %>">

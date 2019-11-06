@@ -1,0 +1,34 @@
+.footer 
+  clear: both
+  text-align: center
+  h1, h2 
+    margin: 0
+    line-height: 1.2
+  .links 
+    height: 40px
+    margin: 2.25em auto 4.5em
+    border-top: 1px dashed #ddd
+    border-bottom: 1px dashed #ddd
+    font: 700 13px Lato-Bold
+    text-transform: uppercase
+    letter-spacing: 1px
+    ul 
+      text-decoration: none
+      padding: 0
+      li
+        display: inline-block
+        &:first-child::after
+          content: "\00B7"
+          margin: 0 .75em
+        &:last-child::after 
+          content: ''
+        a
+          color: #777
+          text-decoration: none
+          transition: .3s
+          &:hover
+            color: #f78769
+  
+
+      
+      

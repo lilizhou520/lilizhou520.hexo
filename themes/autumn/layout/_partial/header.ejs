@@ -19,15 +19,20 @@
         <%= config.subtitle %>
     </h2>
 
+	<div class="divider"></div>
+	<% if(false){ %>
     <div class="links">
-        <ul>
-            <% for (name in theme.social) { %>
-            <li>
-                <a href="<%- url_for(theme.social[name]) %>">
-                    <%- name %>
-                </a>
-            </li>
-            <% } %>
-        </ul>
+				<ul>
+					<% for (name in theme.social) { %>
+					<li>
+						<a href="<%- url_for(theme.social[name]) %>">
+							<%- name %>
+						</a>
+					</li>
+					<% } %>
+				</ul>
+			
     </div>
+	<% } %>
+	
 </header>

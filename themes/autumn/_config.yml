@@ -3,10 +3,10 @@ social:
   Github: https://github.com/lilizhou520
 
 # Background image, color
-background: 'url(../img/daisy.jpg) #f3f3f3'
+background: 'url(/img/daisy.jpg) #f3f3f3'
 
 # Favicon
-favicon: https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico
+favicon: /img/favico.ico
 
 # SEO
 keywords: 'lilizhou, github'
@@ -15,7 +15,7 @@ keywords: 'lilizhou, github'
 widgets:
   category: enabled
   archive: enabled
-  tag: enabled
+ #tag: enabled
 
 # Set the first image in post to cover
 auto_cover: true
